@@ -1,2 +1,2 @@
 # SynartAutomation
-Project for Synart Automation made with Next.js and tailWindCss 
+This project is developed by Next.js, tailwindCSS
