@@ -10,9 +10,9 @@ export const Test = () => {
         </video>
         <div class='overlay'></div>
         <div class='text text-center'>
-          <div className='max-w-xl mb-6'>
+          <div className=' mb-6'>
             <h2 className=' mb-6 font-sans font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none'>
-              <span>
+              <span style={{fontSize: "50px"}}>
                 <span className=' text-4xl xl:inline'>Let Robots Do your </span>
                 <span className=' text-4xl text-red-500  xl:inline'>Jobs </span>
               </span>

@@ -18,7 +18,7 @@ function IndexPage() {
     <div id='top'>
       <Nav />
       <Test />
-      <Advantages />
+      {/* <Advantages /> */}
 
       <HowHelpUs />
       
