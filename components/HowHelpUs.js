@@ -1,5 +1,4 @@
-import { Fade, LightSpeed} from 'react-reveal';
-import Jello from 'react-reveal/Jello';
+import { Fade, LightSpeed, Slide} from 'react-reveal';
 
 export const HowHelpUs = () => {
     return (
@@ -34,7 +33,7 @@ export const HowHelpUs = () => {
                   </p>
                 </LightSpeed>
                 </div>
-                <Jello>
+                <Slide bottom>
                     <div class="row grid grid-flow-col grid-rows-1 grid-cols-5 gap-5 img-div" style={{margin: 'auto'}}>
                       <div className="col-md-2">
                         <img src="/img/Reliable.svg" alt="" />
@@ -58,7 +57,7 @@ export const HowHelpUs = () => {
                       </div>
                       
                     </div>
-                </Jello>
+                </Slide>
                 
               
           </div>

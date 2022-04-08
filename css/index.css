@@ -225,8 +225,8 @@
 
 
 .img-div img{
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   padding: 20px;
   border: 4px solid #ff3333;
   border-radius: 50%;
@@ -235,25 +235,30 @@
   transition: all 0.3s;
 }
 .img-div img:hover {
-  width:250px;
-  height: 250px;
+  /* width:250px;
+  height: 250px; */
   box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.2), 0 6px 20px 0 rgba(1, 1, 1, 0.19);
 }
 .how-help {
   color: white;
     /* font-family: 20px; */
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 20px;
 }
 .testimonial-img {
   width: 100%;
 
 }
-
+.a-testmonial {
+  font-size: 2.25rem;
+  margin-top: 120px !important;
+  margin-bottom: -40px !important;
+}
 .advantage  {
   text-align: center;
   cursor: pointer;
+  transition: all 1s;
 }
 .advantage:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -274,7 +279,57 @@
 }
 .a-how-title {
   text-align: center;
-  font-size: 45px;
+  font-size: 42px;
   margin-bottom: 50px;
   margin-top: -20px;
+}
+
+.a-product-section {
+  width:100%;
+  height:500px;
+  display: flex;
+}
+.a-robotic-div {
+  width: 50%;
+}
+.a-robotic-div img {
+  width: 100%;
+  height: 100%;
+}
+.a-robotic-des {
+  width: 50%;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  text-align: center;
+
+}
+.a-robotic-des p {
+  font-size: 25px;
+}
+.a-contact-div {
+  text-align: center !important;
+  margin: auto;
+  margin-top:30px;
+}
+.col-md-2 {
+  text-align: center;
+}
+.carousel-status {
+  display: none !important;
+}
+.a-avatar {
+  width:150px;
+  border-radius: 50%;
+}
+.carousel .slides img {
+  width: 100px !important;
+  height:100px !important;
+}
+.leading-relaxed {
+  
+}
+.a-display-none {
+  display: none;
 }

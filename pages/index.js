@@ -22,10 +22,10 @@ function IndexPage() {
 
       <HowHelpUs />
       
+      
+      {/* <Hiring /> */}
+      <Product />
       <Testimonial />
-      <Hiring />
-      {/* <Product /> */}
-
       <Contact />
       
       <Footer />
